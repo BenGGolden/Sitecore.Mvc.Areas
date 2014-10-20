@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Mvc.Areas", "Sourc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Mvc.Areas.Unity", "Source\Sitecore.Mvc.Areas.Unity\Sitecore.Mvc.Areas.Unity.csproj", "{C5776118-4DD4-48FB-A9B5-A6AA63F1FC31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasWebsite", "Source\AreasWebsite\AreasWebsite.csproj", "{74565469-8608-4D48-B4F7-5D1568C497DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C5776118-4DD4-48FB-A9B5-A6AA63F1FC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5776118-4DD4-48FB-A9B5-A6AA63F1FC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5776118-4DD4-48FB-A9B5-A6AA63F1FC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74565469-8608-4D48-B4F7-5D1568C497DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74565469-8608-4D48-B4F7-5D1568C497DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74565469-8608-4D48-B4F7-5D1568C497DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74565469-8608-4D48-B4F7-5D1568C497DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+﻿@using Sitecore.Mvc
+@model AreasWebsite.Areas.FiftyOne.Models.BannerViewModel
+<div id="Banner">
+    @Model.BannerLogoImage
+    @Html.Sitecore().Placeholder("banner")
+</div>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Projects\Open Source\Sitecore.Mvc.Areas\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/Sitecore.Mvc.Areas.config">
+      <publishTime>10/19/2014 15:20:19</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Mvc.Areas/Sitecore.Mvc.Areas.config">
+      <publishTime>10/19/2014 15:20:19</publishTime>
+    </File>
+    <File Include="Areas/FiftyOne/Views/Banner/Banner.cshtml">
+      <publishTime>10/18/2014 14:10:12</publishTime>
+    </File>
+    <File Include="Areas/FiftyOne/Views/Content/Content.cshtml">
+      <publishTime>10/18/2014 14:14:25</publishTime>
+    </File>
+    <File Include="Areas/FiftyOne/Views/Shared/MainLayout.cshtml">
+      <publishTime>10/18/2014 13:51:19</publishTime>
+    </File>
+    <File Include="Areas/FiftyOne/Views/web.config">
+      <publishTime>10/18/2014 00:27:48</publishTime>
+    </File>
+    <File Include="bin/AreasWebsite.dll">
+      <publishTime>10/20/2014 14:08:40</publishTime>
+    </File>
+    <File Include="bin/AreasWebsite.pdb">
+      <publishTime>10/20/2014 14:08:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>10/19/2014 22:19:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.pdb">
+      <publishTime>10/19/2014 22:19:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.xml">
+      <publishTime>10/19/2014 22:19:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>10/17/2014 16:25:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.xml">
+      <publishTime>10/17/2014 16:25:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>10/17/2014 16:25:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Mvc.dll">
+      <publishTime>10/19/2014 22:19:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Mvc.xml">
+      <publishTime>10/19/2014 22:19:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <publishTime>10/17/2014 16:25:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.RegistrationByConvention.xml">
+      <publishTime>10/17/2014 16:25:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.xml">
+      <publishTime>10/17/2014 16:25:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>02/28/2014 19:27:18</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Areas.dll">
+      <publishTime>10/19/2014 15:15:42</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Areas.pdb">
+      <publishTime>10/19/2014 15:15:42</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Areas.Unity.dll">
+      <publishTime>10/20/2014 14:08:41</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Areas.Unity.dll.config">
+      <publishTime>10/19/2014 22:19:07</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Areas.Unity.pdb">
+      <publishTime>10/20/2014 14:08:41</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>02/28/2014 19:27:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.xml">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.xml">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.xml">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.xml">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.xml">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.xml">
+      <publishTime>10/17/2014 15:41:49</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>10/19/2014 22:19:04</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/17/2014 23:30:40</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/19/2014 12:32:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

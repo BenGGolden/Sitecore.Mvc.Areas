@@ -25,7 +25,7 @@ namespace Sitecore.Mvc.Areas.Pipelines.Response.GetRenderer
         /// <summary>
         /// The area controller rendering template id.
         /// </summary>
-        private static readonly ID AreaControllerRenderingTemplateId = new ID("{1E62705C-653F-4FA9-8E4A-38F5C51FA9CA}");
+        private static readonly ID AreaControllerRenderingTemplateId = new ID("{EAEC25B0-3110-40D4-B3F9-9D70211022CF}");
 
         #endregion
 
