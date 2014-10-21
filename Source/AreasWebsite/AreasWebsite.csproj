@@ -119,7 +119,7 @@
     <Content Include="Areas\FiftyOne\Views\Shared\MainLayout.cshtml" />
     <Content Include="Areas\FiftyOne\Views\Banner\Banner.cshtml" />
     <Content Include="Areas\FiftyOne\Views\Content\Content.cshtml" />
-    <Content Include="App_Config\Include\Sitecore.Mvc.Areas\Sitecore.Mvc.Areas.config">
+    <Content Include="App_Config\Include\Areas\Sitecore.Mvc.Areas.config">
       <SubType>Designer</SubType>
     </Content>
     <None Include="Properties\PublishProfiles\local.pubxml" />

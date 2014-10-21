@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Mvc.Areas.Unity", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasWebsite", "Source\AreasWebsite\AreasWebsite.csproj", "{74565469-8608-4D48-B4F7-5D1568C497DE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E6A88EC-33A3-403D-8A03-6BDC5CCA2935}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Mvc.Areas.Data.Master", "Data\Sitecore.Mvc.Areas.Data.Master\Sitecore.Mvc.Areas.Data.Master.scproj", "{5F209BA8-26CA-4672-A418-70542C3DFF3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{5553D935-8EE7-4500-B673-A9018E73D6CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{3565FA10-40B6-4F34-B957-310A6B697857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +39,20 @@ Global
 		{74565469-8608-4D48-B4F7-5D1568C497DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74565469-8608-4D48-B4F7-5D1568C497DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74565469-8608-4D48-B4F7-5D1568C497DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F209BA8-26CA-4672-A418-70542C3DFF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F209BA8-26CA-4672-A418-70542C3DFF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F209BA8-26CA-4672-A418-70542C3DFF3C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F209BA8-26CA-4672-A418-70542C3DFF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F209BA8-26CA-4672-A418-70542C3DFF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F209BA8-26CA-4672-A418-70542C3DFF3C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4081281E-D8EE-4899-960F-AF2A862DBC03} = {3565FA10-40B6-4F34-B957-310A6B697857}
+		{C5776118-4DD4-48FB-A9B5-A6AA63F1FC31} = {3565FA10-40B6-4F34-B957-310A6B697857}
+		{74565469-8608-4D48-B4F7-5D1568C497DE} = {3565FA10-40B6-4F34-B957-310A6B697857}
+		{5F209BA8-26CA-4672-A418-70542C3DFF3C} = {5553D935-8EE7-4500-B673-A9018E73D6CD}
 	EndGlobalSection
 EndGlobal
