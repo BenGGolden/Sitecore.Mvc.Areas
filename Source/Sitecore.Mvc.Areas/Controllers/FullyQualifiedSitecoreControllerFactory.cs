@@ -1,7 +1,4 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="FullyQualifiedSitecoreControllerFactory.cs" company="">
-//   
-// </copyright>
 // <summary>
 //   The fully qualified sitecore controller factory.
 // </summary>

@@ -1,7 +1,4 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright company="" file="ControllerInfo.cs">
-//   
-// </copyright>
 // <summary>
 //   The controller info.
 // </summary>
