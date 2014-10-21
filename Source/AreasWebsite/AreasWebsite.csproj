@@ -95,9 +95,11 @@
   <ItemGroup>
     <Compile Include="Areas\FiftyOne\Controllers\BannerController.cs" />
     <Compile Include="Areas\FiftyOne\Controllers\ContentController.cs" />
-    <Compile Include="Areas\FiftyOne\Dependencies\AdditionalContentProvider.cs" />
-    <Compile Include="Areas\FiftyOne\Dependencies\IAdditionalContentProvider.cs" />
+    <Compile Include="Areas\FiftyOne\AdditionalContent\AdditionalContentProvider.cs" />
+    <Compile Include="Areas\FiftyOne\AdditionalContent\IAdditionalContentProvider.cs" />
     <Compile Include="Areas\FiftyOne\Items\MvcAreasItem.cs" />
+    <Compile Include="Areas\FiftyOne\Mappers\ContentMapper.cs" />
+    <Compile Include="Areas\FiftyOne\Mappers\IModelMapper.cs" />
     <Compile Include="Areas\FiftyOne\Models\Banner\BannerViewModel.cs" />
     <Compile Include="Areas\FiftyOne\Models\Content\ContentViewModel.cs" />
     <Compile Include="Extensions\CustomFieldExtensions.cs" />

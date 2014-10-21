@@ -9,5 +9,6 @@ namespace AreasWebsite.Areas.FiftyOne.Models
     {
         public HtmlString Title { get; set; }
         public HtmlString Text { get; set; }
+        public HtmlString AdditionalContent { get; set; }
     }
 }

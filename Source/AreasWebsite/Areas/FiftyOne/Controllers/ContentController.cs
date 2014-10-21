@@ -3,31 +3,29 @@
     using System.Web;
     using System.Web.Mvc;
 
-    using AreasWebsite.Areas.FiftyOne.Dependencies;
     using AreasWebsite.Areas.FiftyOne.Items;
+    using AreasWebsite.Areas.FiftyOne.Mappers;
     using AreasWebsite.Areas.FiftyOne.Models;
     using AreasWebsite.Extensions;
 
+    using Sitecore.Diagnostics;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web.UI.WebControls;
 
     public class ContentController : Controller
     {
-        private readonly IAdditionalContentProvider additionalContentProvider;
+        private readonly IModelMapper<MvcAreasItem, ContentViewModel> modelMapper;
 
-        public ContentController(IAdditionalContentProvider additionalContentProvider)
+        public ContentController(IModelMapper<MvcAreasItem, ContentViewModel> modelMapper)
         {
-            this.additionalContentProvider = additionalContentProvider;
+            Assert.ArgumentNotNull(modelMapper, "modelMapper");
+            this.modelMapper = modelMapper;
         }
 
         public ActionResult Content()
         {
-            MvcAreasItem item = PageContext.Current.Item;
-            var viewModel = new ContentViewModel
-                                {
-                                    Title = item.Title.Render(),
-                                    Text = new HtmlString(item.Text.Render() + this.additionalContentProvider.GetAdditionalContent())
-                                };
+            var rendering = RenderingContext.Current.Rendering;
+            var viewModel = this.modelMapper.Map(rendering.Item, rendering.Parameters);
             return this.View(viewModel);
         }
     }

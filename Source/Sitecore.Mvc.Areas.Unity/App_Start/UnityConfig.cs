@@ -4,7 +4,10 @@ using Microsoft.Practices.Unity.Configuration;
 
 namespace Sitecore.Mvc.Areas.Unity.App_Start
 {
-    using AreasWebsite.Areas.FiftyOne.Dependencies;
+    using AreasWebsite.Areas.FiftyOne.AdditionalContent;
+    using AreasWebsite.Areas.FiftyOne.Items;
+    using AreasWebsite.Areas.FiftyOne.Mappers;
+    using AreasWebsite.Areas.FiftyOne.Models;
 
     using Sitecore.Mvc.Areas.Controllers;
     using Sitecore.Mvc.Areas.Unity.Controllers;
@@ -51,6 +54,7 @@ namespace Sitecore.Mvc.Areas.Unity.App_Start
                     new ResolvedParameter<ControllerRunner>(UnityAreaControllerRendererFactory.RegistrationName)));
             container.RegisterType<ControllerRunner, AreaControllerRunner>(
                 UnityAreaControllerRendererFactory.RegistrationName);
+            container.RegisterType<IModelMapper<MvcAreasItem, ContentViewModel>, ContentMapper>();
             container.RegisterType<IAdditionalContentProvider, AdditionalContentProvider>();
         }
     }
