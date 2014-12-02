@@ -52,9 +52,11 @@
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\References\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc">
       <HintPath>..\..\References\Sitecore.Mvc.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -99,17 +101,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AreasWebsite\AreasWebsite.csproj">
       <Project>{74565469-8608-4d48-b4f7-5d1568c497de}</Project>
       <Name>AreasWebsite</Name>
+      <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\Sitecore.Mvc.Areas\Sitecore.Mvc.Areas.csproj">
       <Project>{4081281E-D8EE-4899-960F-AF2A862DBC03}</Project>
       <Name>Sitecore.Mvc.Areas</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

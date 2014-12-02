@@ -1,0 +1,70 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore.Mvc.Areas</PackageName>
+      <Author>Ben Golden, Kevin Buckley</Author>
+      <Version>1.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/MvcAreas/{9C022826-F119-466C-96DD-D264AE228362}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/MvcAreas/Area Controller Rendering/{EAEC25B0-3110-40D4-B3F9-9D70211022CF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/MvcAreas/Area Controller Rendering/Data/{6D79C06A-9B97-4D86-9B69-59B1F02EF3FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/MvcAreas/Area Controller Rendering/Data/Area/{C50350D6-29DA-4EFC-91A7-275DB8874F2B}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>rendering template</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Sitecore.Mvc.Areas.dll</x-item>
+        <x-item>/App_Config/Include/Areas/</x-item>
+        <x-item>/App_Config/Include/Areas/Sitecore.Mvc.Areas.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

@@ -106,13 +106,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sitecore.Mvc.Areas\Sitecore.Mvc.Areas.csproj">
-      <Project>{4081281e-d8ee-4899-960f-af2a862dbc03}</Project>
-      <Name>Sitecore.Mvc.Areas</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="packages.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
